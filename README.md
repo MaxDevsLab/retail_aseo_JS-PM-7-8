@@ -131,6 +131,14 @@ JWT_EXPIRES_IN=24h
 NODE_ENV=development
 ```
 
+## ⚠️ Aviso de seguridad
+
+Este es un proyecto **educativo**. Por razones de manipulación del proyecto, el archivo `.env` está incluido en el repositorio para facilitar la revisión del código y la configuración del entorno.
+
+**En un proyecto real o productivo esto nunca debe hacerse.** Los archivos `.env` contienen credenciales sensibles (claves de base de datos, tokens, contraseñas) y siempre deben estar en el `.gitignore`.
+
+Si clonas este repositorio, reemplaza los valores del `.env` por los de tu propio entorno.
+
 ### 4. Crear la base de datos en PostgreSQL
 
 ```sql
